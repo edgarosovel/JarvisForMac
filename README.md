@@ -8,9 +8,13 @@ Consta de un programa construido en Python 3.4 que incluye una variedad de libre
 
 #Librerías y API's usadas:
 Os (operative system)– Como bien se sabe, una computadora puede ser controlada práctimante solo desde la consola. Esta librería nos permite la ejecución de comandos de consola desde el programa.
+
 DictionaryServices – Librería propia de sistemas operativos MacOSm la cual nos permite obtener el significado de una palabra.
+
 Cocoa – Nos permite accesar a diversas herramientas y funciones de MacOS, como el reconocimiento de voz pre-instalado en cada Macbook.
+
 Subprocess . librería que nos ofrece más opciones de sistema. En este caso se utilizó para obtener datos desde la consola, como el volumen actual de la computadora.
+
 Speech_recognition – Librería que consta de una variedad de APIs para conectar con servicios de reconocimintos de voz (voz a texto).
 
 La idea era usar una librería que sirviera sin una conexión forzosa a internet, pero desgraciadamente las que existen actualmente, o son muy deficientes, o son de paga. Por eso la última opción fue ocupar el reconocimiento de voz de Google, el cual es uno de los mejores al momento, pero ocupa una conexión estable a internet. 
